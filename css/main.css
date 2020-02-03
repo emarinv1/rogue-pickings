@@ -1,0 +1,146 @@
+/***** FONTS *****/
+
+@font-face {
+font-family: Wisdom;
+src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+
+
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #77a466;
+    text-transform: uppercase;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    float: left;
+    height: 200px;
+    padding: 10px 0 0 0;
+    width: 398px;  
+}
+
+
+
+/***** HEADER *****/
+
+header {
+    height: 375px;
+    background-color: #ffffff;
+    padding-top: 40px;
+
+}
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    font-weight: bold;
+}
+header h1 span {
+    color: #000000;
+}
+    /*********** FIX height of NAV bar!  ***********/
+nav {
+    float: right;
+    padding: 0 0 11px 0;
+}
+nav ul li {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    margin: 15px 0;
+}
+
+/***** MAIN SECTION ******/
+main #welcome {
+    height: 145px;
+    margin: 25px 0 0 0;
+}
+main #welcome h2 {
+    font-size: 18px;
+    line-height: 23px;
+}
+main #welcome p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 25px 0 0;
+    text-transform: none;
+}
+main h3 {
+    color: #000000;
+    font-size: 12px;
+    line-height: 25px;
+}
+main #specials {
+    border-right: 1px solid #dedbdc;
+}
+main #specials ul li {
+    font-size: 16px;
+    line-height: 34px;
+    list-style-type: none;
+    margin: 0 0 0 -40px;
+    text-transform: capitalize;
+}
+main #info p {
+    color: #000000;;
+    font-size: 16px;
+    text-transform: none;
+}
+main #reviews {
+    border-right: 1px solid #dedbdc;
+    line-height: 21px;
+    padding: 10px 25px 0 25px;
+    width: 350px;
+}
+main #reviews p {
+    line-height: 21px;
+}
+main #contact h3 {
+    padding-left: 25px;
+}
+main #contact p {
+    line-height: 24px;
+    padding-left: 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+}
+footer #footer {
+    padding: 25px;
+    text-align: center;
+}
+footer #footer h4 {
+    color: #000000
+}
+footer #footer h4 span {
+    color: #77a466;
+    font-family: 'Wisdom';
+    text-transform: lowercase;
+}
